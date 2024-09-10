@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Website | Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/png;base64,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">
+</head>
+<body>
+
+    <!---------- Header -------->
+
+    <div class="header">
+        <nav>
+            <img src="img/logo.png" class="logo">
+            <div>
+                <button class="lang-btn">English <img src="img/down-icon.png"></button>
+                <button>Sign In</button>
+            </div>
+        </nav>
+        <div class="header-content">
+            <h1>Unlimited movies, TV shows and more.</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <form class="email-signup">
+                <input type="email" placeholder="Email address.." required>
+                <button type="submit" class="button_1">Get Started</button>
+            </form>
+        </div>
+    </div>
+
+    <!-------------- Features ------------->
+
+    <div class="features">
+        <div class="row">
+            <div class="text-col">
+                <h2>Enjoy on your TV.</h2>
+                <p>Watch smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+            </div>
+            <div class="img-col">
+                <img src="img/feature-1.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="img-col">
+                <img src="img/feature-2.png">
+            </div>
+            <div class="text-col">
+                <h2>Download your shows to watch offline.</h2>
+                <p>Save your favourites easily and always have something to watch.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="text-col">
+                <h2>Watch everywhere.</h2>
+                <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            </div>
+            <div class="img-col">
+                <img src="img/feature-3.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="img-col">
+                <img src="img/w.png">
+            </div>
+            <div class="text-col">
+                <h2>Create profiles for children.</h2>
+                <p>Send chiildren on adventures with their favourite characters in a space made just for them-free with your membership. </p>
+            </div>
+        </div>
+    </div>
+
+    <!-------------- Faq --------------->
+    
+    <div class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <ul class="accordion">
+            <li>
+                <input type="radio" name="accordion" id="first">
+                <label for="first">What is Netflix?</label>
+                <div class="content">
+                    <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.
+                        You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="second">
+                <label for="second">How much does ?Netflix cost?</label>
+                <div class="content">
+                    <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₦2,200 to ₦7,000 a month. No extra costs, no contracts.</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="third">
+                <label for="third">Where can i watch?</label>
+                <div class="content">
+                    <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+                        You can also download your favorite shows with the iOS or Android app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="fourth">
+                <label for="fourth">How do i cancel?</label>
+                <div class="content">
+                    <p>Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+                    </p>
+                </div> 
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="fifth">
+                <label for="fifth">What can i watch on Netflix?</label>
+                <div class="content">
+                    <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="sixth">
+                <label for="sixth">Is Netflix good for kids?</label>
+                <div class="content">
+                    <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.
+                        Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</p>
+                </div>
+            </li>
+        </ul>
+        <small>Ready to watch? Enter your email to create or restart your membership</small>
+        <form class="email-signup">
+            <input type="email" placeholder="Email address.." required>
+            <button type="submit" class="button_1">Get Started</button>
+        </form>
+    </div>
+
+    <!----------------- footer ----------------->
+
+    <div class="footer">
+        <h2>Question? Call 000-000-000-000 </h2>
+        <div class="row">
+            <div class="col">
+                <a href="#">FAQ</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Privacy</a>
+                <a href="#">Speed Test</a>
+            </div>
+            <div class="col">
+                <a href="#">Help Center</a>
+                <a href="#">Jobs</a>
+                <a href="#">Cookies preferences</a>
+                <a href="#">Legal Notices</a>
+            </div>
+            <div class="col">
+                <a href="#">Account</a>
+                <a href="#">Ways to watch</a>
+                <a href="#">Corporate information</a>
+                <a href="#">Only on Netflix</a>
+            </div>
+            <div class="col">
+                <a href="#">Media Centre</a>
+                <a href="#">Terms of use</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+        <button class="lang-btn">English <img src="img/down-icon.png"></button>
+    </div>
+</body>
+</html>
